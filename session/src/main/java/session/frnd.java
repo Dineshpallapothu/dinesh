@@ -12,9 +12,9 @@ import javax.servlet.http.HttpSession;
 public class frnd extends HttpServlet{
 	public void service(HttpServletRequest req,HttpServletResponse res) throws IOException  {
 		HttpSession s2 = req.getSession();
-		int value = (int)s2.getAttribute("base");
+		int valu = (int)s2.getAttribute("base");
 		
-		int result = value * value;
+		int result = valu * valu;
 		PrintWriter pw = res.getWriter();
 		pw.println("Total Calculation is "+result);
 	}
