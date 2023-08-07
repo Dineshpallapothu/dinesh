@@ -19,6 +19,7 @@ public class cc extends HttpServlet {
 			int y=Integer.parseInt(req.getParameter("num2"));
 			int k=x+y;
 			out.println(k);
+			// naku git raadu dinesh gaadu cheppadu bokkalagaaa
 			//session
 //			
 //			ServletConfig conf=getServletConfig();
