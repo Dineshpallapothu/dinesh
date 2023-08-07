@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 @WebServlet("/Calling")
+//edokka change
 public class frnd extends HttpServlet{
 	public void service(HttpServletRequest req,HttpServletResponse res) throws IOException  {
 		HttpSession s2 = req.getSession();
